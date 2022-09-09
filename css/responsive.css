@@ -1,313 +1,312 @@
 @media screen and (min-width: 1200px) {
-    .site-width {
-        max-width: 1100px;
-        margin: 0 auto;
-    }
+  .site-width {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
 
-    .current-btn a,
-    .unactive-link,
-    .active-link {
-        font-size: 13px !important;
-    }
+  .current-btn a,
+  .unactive-link,
+  .active-link {
+    font-size: 13px !important;
+  }
 
-    .logo {
-        width: 8%;
-    }
+  .logo {
+    width: 8%;
+  }
 
-    .btn {
-        padding: 10px 20px;
-    }
+  .btn {
+    padding: 10px 20px;
+  }
 }
 
 @media screen and (min-width: 925px) and (max-width: 1200px) {
-    .site-width {
-        max-width: 820px;
-        margin: 0 auto;
-    }
+  .site-width {
+    max-width: 820px;
+    margin: 0 auto;
+  }
 
-    .mission-top button {
-        padding: 0 15px;
-    }
+  .mission-top button {
+    padding: 0 15px;
+  }
 
-    /* influence & statement */
-    .influence-statement-card,
-    .statement-verfied {
-        width: 30%;
-    }
+  .influence-statement-card,
+  .statement-verfied {
+    width: 30%;
+  }
 
-    .span-btn {
-        padding: 0.3re m 0.6rem;
-    }
+  .span-btn {
+    padding: 0.3re m 0.6rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 925px) {
-    .site-width {
-        max-width: 620px;
-        margin: 0 auto;
-    }
+  .site-width {
+    max-width: 620px;
+    margin: 0 auto;
+  }
 
-    .current-btn a,
-    .unactive-link,
-    .active-link {
-        font-size: 12px !important;
-    }
+  .current-btn a,
+  .unactive-link,
+  .active-link {
+    font-size: 12px !important;
+  }
 
-    p {
-        font-size: 16px;
-    }
+  p {
+    font-size: 16px;
+  }
 
-    .main-btn-group {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.8rem;
-        justify-content: center;
-    }
+  .main-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: center;
+  }
 
-    .logo {
-        width: 14%;
-    }
+  .logo {
+    width: 14%;
+  }
 
-    .btn {
-        padding: 10px 13px;
-    }
+  .btn {
+    padding: 10px 13px;
+  }
 
-    .leadership-main {
-        justify-content: center;
-        gap: 0 2rem;
-    }
+  .leadership-main {
+    justify-content: center;
+    gap: 0 2rem;
+  }
 
-    .leadership-verfied {
-        flex-basis: 40%;
-    }
+  .leadership-verfied {
+    flex-basis: 40%;
+  }
 
-    .leadership-defined {
-        flex-basis: 45%;
-    }
+  .leadership-defined {
+    flex-basis: 45%;
+  }
 
-    .influence-statement-card {
-        width: 35%;
-        margin: 0 auto;
-    }
+  .influence-statement-card {
+    width: 35%;
+    margin: 0 auto;
+  }
 
-    .influence-statement-card h1 {
-        font-size: 21px;
-        padding: 0.5rem 0 1rem;
-    }
+  .influence-statement-card h1 {
+    font-size: 21px;
+    padding: 0.5rem 0 1rem;
+  }
 
-    .statement-top {
-        padding: 0 0 0.6rem;
-    }
+  .statement-top {
+    padding: 0 0 0.6rem;
+  }
 
-    .statement-status {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .statement-status {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .statement-verfied {
-        flex-basis: 50%;
-    }
+  .statement-verfied {
+    flex-basis: 50%;
+  }
 
-    .statment-work-graph {
-        flex-basis: 60%;
-    }
+  .statment-work-graph {
+    flex-basis: 60%;
+  }
 
-    .influence-lock {
-        padding: 0.6rem 0;
-    }
+  .influence-lock {
+    padding: 0.6rem 0;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
-    .site-width {
-        max-width: 500px;
-        margin: 0 auto;
-    }
+  .site-width {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 
-    .current-btn a,
-    .unactive-link,
-    .active-link {
-        font-size: 12px !important;
-    }
+  .current-btn a,
+  .unactive-link,
+  .active-link {
+    font-size: 12px !important;
+  }
 
-    .hide-me {
-        display: block;
-    }
+  .hide-me {
+    display: block;
+  }
 
-    .hide-me a {
-        color: #ffff;
-    }
+  .hide-me a {
+    color: #ffff;
+  }
 
-    .btn {
-        padding: 8px 8px;
-        margin: 0 8px;
-        border-radius: 20px;
-        border: none;
-        font-weight: 700;
-    }
+  .btn {
+    padding: 8px 8px;
+    margin: 0 8px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+  }
 
-    .main-btn-group {
-        flex-direction: column;
-        display: flex;
-        width: 100%;
-        background-color: #020344;
-        position: relative;
-        top: -64px;
-        padding: 0.5rem;
-        border-radius: 0 0 10px 10px;
-    }
+  .main-btn-group {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    background-color: #020344;
+    position: relative;
+    top: -64px;
+    padding: 0.5rem;
+    border-radius: 0 0 10px 10px;
+  }
 
-    .active-btn a {
-        color: #fff;
-    }
+  .active-btn a {
+    color: #fff;
+  }
 
-    .current-btn {
-        background-color: #fff;
-    }
+  .current-btn {
+    background-color: #fff;
+  }
 
-    .current-btn a {
-        color: #020344;
-    }
+  .current-btn a {
+    color: #020344;
+  }
 
-    .leadership-main,
-    .majority-points,
-    .leadership-defined-flex {
-        justify-content: center;
-    }
+  .leadership-main,
+  .majority-points,
+  .leadership-defined-flex {
+    justify-content: center;
+  }
 
-    .leadership-defined-top-p,
-    .leadership-defined h2,
-    .mojority-dis {
-        text-align: center;
-    }
+  .leadership-defined-top-p,
+  .leadership-defined h2,
+  .mojority-dis {
+    text-align: center;
+  }
 
-    .resp600center {
-        justify-content: center;
-    }
+  .resp600center {
+    justify-content: center;
+  }
 
-    .leadership-verfied {
-        flex-basis: 52%;
-    }
+  .leadership-verfied {
+    flex-basis: 52%;
+  }
 
-    .leadership-defined {
-        flex-basis: 70%;
-    }
+  .leadership-defined {
+    flex-basis: 70%;
+  }
 
-    .influence-statement-card {
-        width: 50%;
-        margin: 0 auto;
-    }
+  .influence-statement-card {
+    width: 50%;
+    margin: 0 auto;
+  }
 
-    .statement-status {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .statement-status {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .statement-verfied {
-        flex-basis: 60%;
-    }
+  .statement-verfied {
+    flex-basis: 60%;
+  }
 
-    .statment-work-graph {
-        flex-basis: 70%;
-    }
+  .statment-work-graph {
+    flex-basis: 70%;
+  }
 }
 
 @media screen and (min-width: 330px) and (max-width: 600px) {
-    .site-width {
-        max-width: 380px;
-        margin: 0 auto;
-    }
+  .site-width {
+    max-width: 380px;
+    margin: 0 auto;
+  }
 
-    .current-btn a,
-    .unactive-link,
-    .active-link {
-        font-size: 12px !important;
-    }
+  .current-btn a,
+  .unactive-link,
+  .active-link {
+    font-size: 12px !important;
+  }
 
-    .header {
-        flex-direction: column;
-    }
+  .header {
+    flex-direction: column;
+  }
 
-    .hide-me {
-        display: block;
-    }
+  .hide-me {
+    display: block;
+  }
 
-    .btn {
-        padding: 8px 8px;
-        margin: 0 8px;
-        border-radius: 20px;
-        border: none;
-        font-weight: 700;
-    }
+  .btn {
+    padding: 8px 8px;
+    margin: 0 8px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+  }
 
-    .main-purpose h1 {
-        text-align: center;
-    }
+  .main-purpose h1 {
+    text-align: center;
+  }
 
-    .main-purpose-p {
-        text-align: center;
-    }
+  .main-purpose-p {
+    text-align: center;
+  }
 
-    .main-btn-group {
-        flex-direction: column;
-        display: flex;
-        width: 100%;
-        background-color: #020344;
-        position: relative;
-        top: -64px;
-        padding: 0.5rem;
-        border-radius: 0 0 10px 10px;
-    }
+  .main-btn-group {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    background-color: #020344;
+    position: relative;
+    top: -64px;
+    padding: 0.5rem;
+    border-radius: 0 0 10px 10px;
+  }
 
-    .active-btn a {
-        color: #fff;
-    }
+  .active-btn a {
+    color: #fff;
+  }
 
-    .current-btn {
-        background-color: #fff;
-    }
+  .current-btn {
+    background-color: #fff;
+  }
 
-    .current-btn a {
-        color: #020344;
-    }
+  .current-btn a {
+    color: #020344;
+  }
 
-    .leadership-main,
-    .majority-points,
-    .leadership-defined-flex {
-        justify-content: center;
-    }
+  .leadership-main,
+  .majority-points,
+  .leadership-defined-flex {
+    justify-content: center;
+  }
 
-    .leadership-defined-top-p,
-    .leadership-defined h2,
-    .mojority-dis {
-        text-align: center;
-    }
+  .leadership-defined-top-p,
+  .leadership-defined h2,
+  .mojority-dis {
+    text-align: center;
+  }
 
-    .resp600center {
-        justify-content: center;
-    }
+  .resp600center {
+    justify-content: center;
+  }
 
-    .leadership-verfied {
-        flex-basis: 70%;
-    }
+  .leadership-verfied {
+    flex-basis: 70%;
+  }
 
-    .leadership-defined {
-        flex-basis: 90%;
-    }
+  .leadership-defined {
+    flex-basis: 90%;
+  }
 
-    .influence-statement-card {
-        width: 80%;
-        margin: 0 auto;
-    }
+  .influence-statement-card {
+    width: 80%;
+    margin: 0 auto;
+  }
 
-    .statement-status {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .statement-status {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .statement-verfied {
-        flex-basis: 80%;
-    }
+  .statement-verfied {
+    flex-basis: 80%;
+  }
 
-    .statment-work-graph {
-        flex-basis: 70%;
-    }
+  .statment-work-graph {
+    flex-basis: 70%;
+  }
 }
