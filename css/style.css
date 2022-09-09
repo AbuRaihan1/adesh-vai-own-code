@@ -163,248 +163,7 @@ h2 {
   margin: 0 5px;
 }
 
-/* /////// purpose main  */
-.main-purp {
-  margin: 2rem 0;
-  border: 1px solid #e4e4e4;
-  border-radius: 20px;
-  padding: 1rem;
-}
-
-.purp-content,
-.mission {
-  padding: 0 0.5rem 2rem;
-  border: 1px solid #e1e1e1;
-  border-radius: 10px;
-}
-
-.purp-content p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 150%;
-  color: #020344;
-}
-
-.mission {
-  margin: 2rem 0;
-}
-
-.main-purpose h1 {
-  color: #020344;
-  padding: 1rem 0;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 46px;
-}
-
-.main-purpose-p {
-  letter-spacing: 1px;
-  word-spacing: 1px;
-  line-height: 25px;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 150%;
-  /* identical to box height, or 27px */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  /* dark */
-  color: #020344;
-}
-
-.mission-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.mission-top button {
-  background: none;
-  border: 2px solid #020344;
-  padding: 0 30px;
-  height: 50px;
-  border-radius: 25px;
-}
-
-.mission-top button a {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 14px;
-  line-height: 52px;
-  letter-spacing: 0.35px;
-  color: #020344;
-}
-
-.leadership-main {
-  padding: 2rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  gap: 2rem;
-  width: 100%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.leadership-verfied {
-  background-color: #020344;
-  padding: 1rem 2rem;
-  color: #fff;
-  -ms-flex-preferred-size: 48%;
-  flex-basis: 48%;
-  border-radius: 15px;
-}
-
-.leadership-verfied p:nth-child(1) {
-  color: #ffd866;
-  padding: 1rem 0;
-}
-
-.leadership-verfied p:nth-child(3) {
-  color: #fff;
-  padding-top: 1.5rem;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 24px;
-}
-
-.leadership-verfied h2 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 130%;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #ffffff;
-}
-
-.leadership-defined {
-  -ms-flex-preferred-size: 30%;
-  flex-basis: 30%;
-}
-
-.leadership-defined h2 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 48px;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #020344;
-}
-
-.leadership-defined-top-p {
-  color: #9cd7ef;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.leadership-defined-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-  color: #020344;
-  font-weight: 600;
-}
-
-.leadership-defined-flex li:nth-child(2) {
-  list-style: disc !important;
-  margin-left: 20px;
-}
-
-.leadership-defined-flex li {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  /* identical to box height, or 171% */
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  /* dark */
-  color: #020344;
-}
-
-.mojority-dis {
-  color: #ff7272;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.majority-points {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 15px;
-}
-
-.majority-points p {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.leadership-piechart {
-  margin-top: -43px;
-}
-
-.chart {
-  -webkit-transform: translateY(50%);
-  -ms-transform: translateY(50%);
-  transform: translateY(50%);
-}
-
-.leadership-piechart p {
-  -webkit-transform: translate(65%, -40%);
-  -ms-transform: translate(65%, -40%);
-  transform: translate(65%, -40%);
-  display: inline-block;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 24px;
-}
-
 /* INFLUENCE------ */
-.influence {
-  padding: 2rem 0;
-}
 
 .influence-inner {
   border: 1px solid #e4e4e480;
@@ -565,6 +324,13 @@ h2 {
   padding: 0.5rem;
 }
 
+.statement_all_wrapper {
+  border: 1px solid rgb(233, 228, 228);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
 .statement_wrapper {
   background: #020344;
   padding: 20px;
@@ -606,28 +372,32 @@ h2 {
 .progress_done {
   width: 10%;
   height: 100%;
-  background: #E6E5FB;
+  background: #e6e5fb;
   padding: 5px 8px;
   border-radius: 6px 0 0 6px;
 }
 .progress_text {
   position: absolute;
   left: 15px;
-  top: 5px;
+  top: 8px;
   font-weight: 600;
-
 }
 
-.progress_percentage{
+.progress_percentage {
   position: absolute;
   right: 15px;
-  top: 5px;
+  top: 8px;
   font-weight: 600;
 }
 
 /* mostly yes  */
 .mostly_yes {
   width: 50%;
+}
+
+.check_circle {
+  color: #020344;
+  border-radius: 50%;
 }
 
 /* i am not sure  */
@@ -927,7 +697,7 @@ h2 {
 .purpose {
   border: 1px solid #f1f1f1;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 20px 0;
 }
 
@@ -949,7 +719,7 @@ h2 {
 
 .mission {
   border: 1px solid #f1f1f1;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 20px 10px;
   margin: 20px 0;
 }
@@ -1020,6 +790,9 @@ h2 {
   height: 15px;
 }
 
+.like_button {
+  color: #9791ff !important;
+}
 /* mission end  */
 
 /* chart start  */

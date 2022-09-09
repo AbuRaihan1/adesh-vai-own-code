@@ -1,9 +1,4 @@
 @media screen and (min-width: 1200px) {
-  .site-width {
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-
   .current-btn a,
   .unactive-link,
   .active-link {
@@ -20,10 +15,6 @@
 }
 
 @media screen and (min-width: 925px) and (max-width: 1200px) {
-  .site-width {
-    max-width: 820px;
-    margin: 0 auto;
-  }
 
   .mission-top button {
     padding: 0 15px;
@@ -40,11 +31,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 925px) {
-  .site-width {
-    max-width: 620px;
-    margin: 0 auto;
-  }
-
   .current-btn a,
   .unactive-link,
   .active-link {
@@ -70,56 +56,10 @@
     padding: 10px 13px;
   }
 
-  .leadership-main {
-    justify-content: center;
-    gap: 0 2rem;
-  }
-
-  .leadership-verfied {
-    flex-basis: 40%;
-  }
-
-  .leadership-defined {
-    flex-basis: 45%;
-  }
-
-  .influence-statement-card {
-    width: 35%;
-    margin: 0 auto;
-  }
-
-  .influence-statement-card h1 {
-    font-size: 21px;
-    padding: 0.5rem 0 1rem;
-  }
-
-  .statement-top {
-    padding: 0 0 0.6rem;
-  }
-
-  .statement-status {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .statement-verfied {
-    flex-basis: 50%;
-  }
-
-  .statment-work-graph {
-    flex-basis: 60%;
-  }
-
-  .influence-lock {
-    padding: 0.6rem 0;
-  }
+ 
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
-  .site-width {
-    max-width: 500px;
-    margin: 0 auto;
-  }
 
   .current-btn a,
   .unactive-link,
@@ -210,11 +150,6 @@
 }
 
 @media screen and (min-width: 330px) and (max-width: 600px) {
-  .site-width {
-    max-width: 380px;
-    margin: 0 auto;
-  }
-
   .current-btn a,
   .unactive-link,
   .active-link {
@@ -237,14 +172,7 @@
     font-weight: 700;
   }
 
-  .main-purpose h1 {
-    text-align: center;
-  }
-
-  .main-purpose-p {
-    text-align: center;
-  }
-
+  
   .main-btn-group {
     flex-direction: column;
     display: flex;
@@ -284,29 +212,4 @@
     justify-content: center;
   }
 
-  .leadership-verfied {
-    flex-basis: 70%;
-  }
-
-  .leadership-defined {
-    flex-basis: 90%;
-  }
-
-  .influence-statement-card {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .statement-status {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .statement-verfied {
-    flex-basis: 80%;
-  }
-
-  .statment-work-graph {
-    flex-basis: 70%;
-  }
 }
