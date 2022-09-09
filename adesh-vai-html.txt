@@ -1,0 +1,123 @@
+
+<div class="main-purpose">
+  <div class="purp-content">
+    <h1>Purpose</h1>
+    <p>
+      Purpose is the reason the organization exists. It’s not about
+      making a profit, it’s about the positive impact you strive to
+      create for the people you provide a service to. Purpose-driven
+      companies stay focused on the things that matter most, and makes
+      it easy to prioritize opportunities - and walk away from
+      distractions that don’t align.
+    </p>
+  </div>
+  <div class="mission">
+    <div class="mission-top-p">
+      <div class="mission-top">
+        <h1 class="">Mission</h1>
+        <div class="mission-top-btn">
+          <button><a href="#">Optional Button</a></button>
+        </div>
+      </div>
+      <p class="main-purpose-p">
+        Mission is the reason for [company name]’s existence.
+      </p>
+    </div>
+    <!-- leadership--1st-Part--{ Mission }  -->
+    <div class="leadership-main">
+      <div class="leadership-verfied">
+        <p>leadership Verifieds <i class="fas fa-badge-check"></i></p>
+        <h2>“We’re in business to save our home planet.”</h2>
+        <p>Last Updated 3d</p>
+      </div>
+      <div class="leadership-defined">
+        <p class="leadership-defined-top-p">
+          Perkio Defined <i class="fas fa-badge-check"></i>
+        </p>
+        <h2>Alingment</h2>
+        <ul style="padding: 0.5rem 0" class="leadership-defined-flex">
+          <li>High Response</li>
+          <li>High Confidence</li>
+        </ul>
+        <p class="mojority-dis">
+          <i class="fas fa-thumbs-down"></i> Majority Negative
+        </p>
+        <div class="majority-points">
+          <p style="color: #9791ff; font-weight: 600">
+            <i class="fas fa-circle"></i> Positive
+          </p>
+          <p style="color: #ff5959; font-weight: 600">
+            <i class="fas fa-circle"></i> Negative
+          </p>
+          <p style="color: #999999; font-weight: 600">
+            <i class="fas fa-circle"></i> Unsure
+          </p>
+        </div>
+      </div>
+      <div class="leadership-piechart">
+        <div class="chart">
+          <img src="./images/chart.svg" alt="" />
+        </div>
+        <p>60%</p>
+      </div>
+    </div>
+    <!-- leadership--2nd Part { Vision } -->
+    <div class="mission-top-p">
+      <div class="mission-top resp600center">
+        <h1>Vision</h1>
+      </div>
+      <p class="main-purpose-p">
+        Vision is the long term goals we have for [company name].
+      </p>
+    </div>
+    <div class="leadership-main">
+      <div class="leadership-verfied">
+        <p>leadership Verifieds <i class="fas fa-badge-check"></i></p>
+        <h2>“We’re in business to save our home planet.”</h2>
+        <p>Last Updated 3d</p>
+      </div>
+      <div class="leadership-defined">
+        <p class="leadership-defined-top-p">
+          Perkio Defined <i class="fas fa-badge-check"></i>
+        </p>
+        <h2
+          style="
+            color: #020344;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 48px;
+          "
+        >
+          Alingment
+        </h2>
+        <ul style="padding: 0.5rem 0" class="leadership-defined-flex">
+          <li>High Response</li>
+          <li>High Confidence</li>
+        </ul>
+        <p class="mojority-dis">
+          <i class="fas fa-thumbs-down"></i> Majority Negative
+        </p>
+        <div class="majority-points">
+          <p style="color: #9791ff; font-weight: 600">
+            <i class="fas fa-circle"></i> Positive
+          </p>
+          <p style="color: #ff5959; font-weight: 600">
+            <i class="fas fa-circle"></i> Negative
+          </p>
+          <p style="color: #999999; font-weight: 600">
+            <i class="fas fa-circle"></i> Unsure
+          </p>
+        </div>
+      </div>
+      <div class="leadership-piechart">
+        <div class="chart">
+          <img src="./images/chart.svg" alt="" />
+        </div>
+        <p>60%</p>
+      </div>
+    </div>
+  </div>
+</div>

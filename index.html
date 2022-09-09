@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perko</title>
+    <link rel="icon" href="images/logo.svg" type="image/gif" sizes="16x16" />
+    <!-- Fontawesome -->
+    <link
+      href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css"
+      rel="stylesheet"
+    />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font-Family StyleSheet-->
+    <link rel="stylesheet" href="css/font-family.css" />
+    <!--Main StyleSheet-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responisve css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <!-- bootstrap link -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+  <!-- bootstrap link -->
+  <!-- chart js link -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- chart js link -->
+
+  <body>
+    <!--//////////// {Header} ///////////////// -->
+    <section class="top-header">
+      <div class="site-width">
+        <div class="header">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="" />
+          </div>
+          <div class="navbar">
+            <ul>
+              <li><a class="unactive-link" href="#">Dashboard</a></li>
+              <li><a class="unactive-link" href="#">Cukture Book</a></li>
+              <li><a class="active-link" href="#">Culture Book</a></li>
+              <li class="hide-me">
+                <a class="toggle-button" href="#"
+                  ><i style="color: #fff" class="fas fa-bars"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                      d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--////////// {Main} //////////// -->
+    <section class="main">
+      <div class="site-width">
+        <div id="active" class="">
+          <div class="main-btn-group">
+            <button class="current-btn btn">
+              <a href="#">
+                <i class="fal fa-compress-arrows-alt"></i> Purpose</a
+              >
+            </button>
+            <button class="unactive-btn btn">
+              <a href="#"><i class="far fa-lock-alt"></i> Character</a>
+            </button>
+            <button class="unactive-btn btn">
+              <a href="#"><i class="far fa-lock-alt"></i> Values</a>
+            </button>
+            <button class="active-btn btn">
+              <a href="#"><i class="far fa-shield-check"></i> Safety</a>
+            </button>
+            <button class="unactive-btn btn">
+              <a href="#"><i class="far fa-lock-alt"></i> Collaborate</a>
+            </button>
+            <button class="unactive-btn btn">
+              <a href="#"><i class="far fa-lock-alt"></i>Behaviour</a>
+            </button>
+            <button class="unactive-btn btn">
+              <a href="#"><i class="far fa-lock-alt"></i>Rituals</a>
+            </button>
+          </div>
+        </div>
+
+        <main class="container">
+          <div class="all_wrapper">
+            <!-- purpose start  -->
+            <section class="purpose">
+              <h2>Purpose</h2>
+              <p>
+                Purpose is the reason the organization exists. It’s not about
+                making a profit, it’s about the positive impact you strive to
+                create for the people you provide a service to. Purpose-driven
+                companies stay focused on the things that matter most, and makes
+                it easy to prioritize opportunities - and walk away from
+                distractions that don’t align.
+              </p>
+            </section>
+
+            <div class="mission">
+              <div class="mission_title">
+                <h2>Mission</h2>
+                <button>optional button</button>
+              </div>
+              <p class="mission_reason_text">
+                mission is the reason for [company name]'s existence
+              </p>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="inner_item_wrapper mission_item">
+                    <p>
+                      Leadership verified <i class="fas fa-badge-check"></i>
+                    </p>
+                    <h2>"we're in business to save out home planet"</h2>
+                    <p>
+                      last updated <span id="updated_date_mission">23</span>d
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="inner_item_wrapper chart_area">
+                    <div class="chart_area_item">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12 col-12">
+                          <div class="inner_chart_info">
+                            <p>
+                              perkio Defined <i class="fas fa-badge-check"></i>
+                            </p>
+                            <h2>Alignment</h2>
+                            <ul>
+                              <li>high response</li>
+                              <li>high confidence</li>
+                            </ul>
+                            <span>
+                              <img
+                                src="images/dislike.png"
+                                alt="dislike button"
+                                class="dislike_button"
+                              />
+                              majority negetive</span
+                            >
+                            <!-- <div id="plugins"></div> -->
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-12">
+                          <div style="height: 200px; width: 200px">
+                            <canvas id="doughnut"> </canvas>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mission">
+              <div class="mission_title">
+                <h2>Vission</h2>
+                <button>optional button</button>
+              </div>
+              <p class="mission_reason_text">
+                Vission is the long term goals we have for [company name].
+              </p>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="inner_item_wrapper mission_item">
+                    <p>
+                      Leadership verified <i class="fas fa-badge-check"></i>
+                    </p>
+                    <h2>"we're in business to save out home planet"</h2>
+                    <p>
+                      last updated <span id="updated_date_vission">23</span>d
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="inner_item_wrapper chart_area">
+                    <div class="chart_area_item">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12 col-12">
+                          <div class="inner_chart_info">
+                            <p>
+                              perkio Defined <i class="fas fa-badge-check"></i>
+                            </p>
+                            <h2>Alignment</h2>
+                            <ul>
+                              <li>high response</li>
+                              <li>high confidence</li>
+                            </ul>
+                            <span>
+                              <img
+                                src="images/dislike.png"
+                                alt="dislike button"
+                                class="dislike_button"
+                              />
+                              majority negetive</span
+                            >
+                            <!-- <div id="plugins"></div> -->
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-12">
+                          <div style="height: 200px; width: 200px">
+                            <canvas id="vissionDoughnut"> </canvas>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+    <!-- INFLUENCE--------------- -->
+    <section class="influence">
+      <div class="site-width">
+        <div class="influence-inner">
+          <div class="influence-top">
+            <h1>Influence</h1>
+            <p>
+              Influence is how much ability an individual in the organization
+              has to shape the organization.
+            </p>
+          </div>
+          <div class="influence-lock">
+            <p>
+              <i style="font-size: 1.5rem" class="far fa-lock-alt"></i> You can
+              unlock this by completing other areas of the culture book.
+            </p>
+          </div>
+          <div class="influence-card">
+            <div class="influence-statement-card">
+              <div class="statement-top">
+                <p class="nameStatement" style="color: #353535">
+                  <img src="images/statement.svg" alt="" />
+                  <span>Statement</span>
+                </p>
+                <span class="span-btn"
+                  ><a style="color: #9791ff" href="#">
+                    <i class="fas fa-chevron-right"></i> </a
+                ></span>
+              </div>
+              <h1>
+                Our opinion is <br />
+                very valued and appreciated.
+              </h1>
+              <button class="influence-statement-card-button">
+                <a style="color: #fff" href="#">Above & Beyond</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="statement-status">
+          <div class="statement-verfied flexBox">
+            <div class="statement-top">
+              <span class="close-btn"
+                ><a style="color: #fff" href="#"><i class="fas fa-times"></i></a
+              ></span>
+            </div>
+            <div class="statementDetails">
+              <p class="nameStatement">
+                <img src="images/label.svg" alt="" />
+                <span>Statement</span>
+              </p>
+              <h2>
+                Our opinion is very valued and <br />
+                appreciated.
+              </h2>
+              <button class="influence-statement-card-button">
+                <a style="color: #fff" href="#">Above & Beyond</a>
+              </button>
+              <p class="statement-ask">Asked on 13-09-22</p>
+            </div>
+          </div>
+          <div class="statment-work-graph">
+            <h1>How in the loop do you feel at work?</h1>
+            <div class="work-graph">
+              <div class="progressBar">
+                <div class="outer-1">
+                  <p>Mostly No</p>
+                  <div class="fill-box"></div>
+                  <span>10%</span>
+                </div>
+                <div class="outer-1">
+                  <p>Mostly yes <img src="images/check.svg" alt="icon" /></p>
+                  <div class="fill-box"></div>
+                  <span>50%</span>
+                </div>
+                <div class="outer-1">
+                  <p>I am Not Sure</p>
+                  <div class="fill-box"></div>
+                  <span>22%</span>
+                </div>
+                <div class="outer-1">
+                  <p>Who Knows</p>
+                  <div class="fill-box"></div>
+                  <span>18%</span>
+                </div>
+              </div>
+              <p
+                style="
+                  font-family: 'Quicksand';
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 14px;
+                  line-height: 150%;
+                  /* identical to box height, or 21px */
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-end;
+                  /* text grey */
+                  color: #494949;
+                "
+              >
+                77% Response
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reason-why">
+      <div class="site-width">
+        <div class="reason-why-inner">
+          <div class="influence-top">
+            <h1 style="color: #999999">
+              <i style="font-size: 1.5rem" class="far fa-lock-alt"></i> Reason
+              Why
+            </h1>
+            <p>
+              Influence is how much ability an individual in the organization
+              has to shape the organization.
+            </p>
+          </div>
+          <div class="influence-lock">
+            <p style="color: #a0a0a0">
+              <i style="font-size: 1.5rem" class="far fa-lock-alt"></i> You can
+              unlock this by completing other areas of the culture book.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JavaScript bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript bootstrap Bundle with Popper -->
+    <!-- javascript -->
+    <script src="./js/script.js"></script>
+    <!--Bootstrap CDN js-->
+  </body>
+</html>
