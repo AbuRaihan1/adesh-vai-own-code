@@ -1,13 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-.site-width {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 a {
@@ -34,127 +28,124 @@ h2 {
 }
 
 /* .........header */
-.top-header {
-  background-color: #020344;
+
+/* raihan code header start */
+
+.main_header {
+  background: #020344;
 }
 
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.main_header img {
+  width: 100px;
+  height: 100px;
+}
+
+.header_wrapper {
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  padding: 1rem 0;
 }
 
-.navbar > ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.header_wrapper ul {
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
 }
 
-.navbar ul > li a > svg {
+.main_header ul li {
+  margin-top: 10px;
+}
+
+.main_header ul li a:hover {
+  border: 1px solid #070977;
+  color: white;
+}
+.main_header ul li a {
+  text-decoration: none;
+  color: #9a9ab4;
+  transition: all 0.2s ease-in-out;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.main_header ul > li a > svg {
   width: 20px;
   fill: #fff;
 }
 
-.active-link {
-  color: #ffff;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
+.bar_icon {
+  font-size: 20px;
 }
-
-.unactive-link {
-  color: #8b8b8b;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
+.close_icon {
+  font-size: 20px;
 }
-
 .hide-me {
   display: none;
 }
 
-/* ............main */
-.main {
-  padding: 2rem 0;
+.navbar_close_button {
+  display: none;
 }
+
 
 .activeMe {
   display: none;
 }
 
-/*///// main button group */
-.main-btn-group {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
+.show_after_close {
+  display: block;
 }
-.main-btn-group a {
+
+.closeMe {
+  display: none;
+}
+
+.hide_toogle_button{
+  display: none;
+}
+
+.secondary_navbar_wrapper .will_be_hide_600px {
+  display: none;
+}
+/* raihan code header end */
+
+.secondary_navbar_wrapper  {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.secondary_navbar_wrapper ul {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.secondary_navbar_wrapper ul li a {
   text-decoration: none;
+  color: #B3B3C7;
+  margin: 0 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
 }
-.purpose_btn {
+
+.secondary_navbar_wrapper ul li a:hover{
+  color: #020344;
+  font-weight: bolder;
+}
+
+.active_secondery_navber_item {
   background: #020344;
-  padding: 6px 20px;
-  border-radius: 50px;
+  padding:10px 20px;
   color: white;
-}
-.current-btn {
-  background-color: #020344;
-}
-
-.active-btn {
-  background: none;
+  border-radius: 50px;
+  color: white !important;
 }
 
-.unactive-btn,
-.unactive-btn a {
-  background: none;
-  font-family: "AirbnbCereal_W_Bk";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 100%;
-  text-transform: uppercase;
-  color: #020344;
-}
 
-.current-btn a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.active-btn a {
-  color: #020344;
-}
-
-.unactive-btn a {
-  color: #a3a3a3;
-}
-
-.btn {
-  padding: 10px 14px !important;
-  margin: 0;
-  border-radius: 20px;
-  border: none;
-  font-weight: 700;
-}
-
-.btn i {
-  font-size: 20px;
-  margin: 0 5px;
-}
+/* secondary header end  */
 
 /* INFLUENCE------ */
 
@@ -276,45 +267,8 @@ h2 {
   align-items: center;
 }
 .statement-top img {
-  width: 40px;
-  height: 40px;
-}
-
-.span-btn {
-  border: 1px solid #9791ff;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 45px;
-  width: 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
-
-.influence-statement-card h1 {
-  line-height: 35px;
-  padding: 0.5rem 0 2rem;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 150%;
-  /* or 45px */
-  color: #464a53;
-}
-
-.influence-statement-card-button {
-  background-color: #39c16c;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  padding: 0.5rem;
+  width: 34px;
+  height: 34px;
 }
 
 .statement_all_wrapper {
@@ -407,96 +361,6 @@ h2 {
   margin-right: 15px;
   font-weight: 600;
 }
-.statment-work-graph {
-  -webkit-transform: translateY(10%);
-  -ms-transform: translateY(10%);
-  transform: translateY(10%);
-  -ms-flex-preferred-size: 60%;
-  flex-basis: 60%;
-}
-
-.statment-work-graph h1 {
-  font-family: "AirbnbCereal_W_Bk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 150%;
-  color: #464a53;
-}
-
-.outer-1 {
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  position: relative;
-  margin: 1rem 0;
-  font-family: "Quicksand", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 150%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #494949;
-  background: rgba(153, 153, 153, 0.05);
-  padding: 12px 0px;
-}
-
-.fill-box {
-  height: 30px;
-  background-color: #9791ff33;
-  position: absolute;
-  z-index: -1;
-  padding: 20px 0px;
-}
-
-.outer-1 p {
-  padding-left: 0.5rem;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 0;
-  font-family: "Quicksand";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 150%;
-  color: #494949;
-}
-
-.outer-1 p img {
-  height: 15px;
-  width: 15px;
-  margin-left: 10px;
-  margin-top: 3px;
-}
-
-.outer-1:nth-child(1) .fill-box {
-  width: 15%;
-}
-
-.outer-1:nth-child(2) .fill-box {
-  width: 50%;
-}
-
-.outer-1:nth-child(3) .fill-box {
-  width: 22%;
-}
-
-.outer-1:nth-child(4) .fill-box {
-  width: 18%;
-}
 
 .reason-why-inner {
   border: 1px solid #e4e4e480;
@@ -509,20 +373,10 @@ h2 {
   font-size: 28px;
 }
 
-.flexBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-}
+
 
 .statementDetails {
-  margin-left: 20px;
+  margin-left: 68px;
   color: white;
 }
 
@@ -530,161 +384,6 @@ h2 {
   font-size: 30px;
   color: white;
 }
-
-.statementDetails a {
-}
-
-.nameStatement {
-  font-family: "AirbnbCereal_W_Bk";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 32px;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.statementDetails .nameStatement img {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-}
-
-.nameStatement span {
-  margin-left: 10px;
-}
-
-.processingDetailsArea {
-}
-
-.processingDetailsArea .verifyingId {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #9791ff !important;
-}
-
-.processingDetailsArea .processingText {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 130%;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #ffffff;
-}
-
-.processingDetailsArea .availableDate {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 24px;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #ffffff;
-}
-
-.processingCalculate {
-}
-
-.processingCalculate .pVerifying {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #9791ff;
-}
-
-.processingCalculate .alignment {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 48px;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #020344;
-}
-
-.processingCalculate .availableNext {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #020344;
-}
-
-.processingCalculate .claculate {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #9791ff;
-}
-
-.processingCalculate .lastDate {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 24px;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #020344;
-}
-
-.processingImg .chart img {
-  margin-top: -40px;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-}
-
-.cardItem h1 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 150%;
-  color: #464a53;
-}
-
-.cardItem .cardVerifying {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
-  color: #9791ff;
-}
-
-/* raihan code  */
-/* start from purpose  */
 
 /* purpose start  */
 .purpose {

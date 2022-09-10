@@ -1,7 +1,19 @@
+let closeButton = document.querySelector(".navbar_close_button");
+let toogleButton = document.querySelector(".toggle-button");
+toogleButton.addEventListener("click", function () {
+  toogleButton.classList.add('hide_toogle_button');
 
-document.querySelector(".toggle-button").addEventListener("click", function() {
-    document.querySelector("#active").classList.toggle("activeMe");
+  document.querySelector("#active").classList.add("activeMe");
+
+  closeButton.classList.remove("navbar_close_button");
 });
+
+let crossButton = document.getElementById('show_navbar_to_click_cross_icon');
+crossButton.addEventListener('click', function(){
+  document.querySelector("#active").classList.remove("activeMe");
+  toogleButton.classList.remove('hide_toogle_button');
+  closeButton.classList.add("navbar_close_button");
+})
 
 
 // doughnut chart code 

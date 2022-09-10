@@ -1,215 +1,61 @@
-@media screen and (min-width: 1200px) {
-  .current-btn a,
-  .unactive-link,
-  .active-link {
-    font-size: 13px !important;
+@media screen and (max-width: 1200px) {
+  .secondary_navbar_wrapper ul {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hide-me {
+    display: block;
   }
 
-  .logo {
-    width: 8%;
+  .secondary_navbar_wrapper{
+    margin-top: -35px;
+  }
+  .secondary_navbar_wrapper ul{
+    display: block;
+    background: #020344;
+    padding: 20px 0;
+    padding-top: 40px;
+    border-radius: 0 0 10px 10px;
+  }
+  .secondary_navbar_wrapper li{
+    margin: 20px 0;
+  }
+  .secondary_navbar_wrapper li a {
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 6px;
+    padding-right: 15px;
+  }
+  .secondary_navbar_wrapper li a:hover{
+    border: 1px solid white;
+    color: white !important;
   }
 
-  .btn {
+  .active_secondery_navber_item {
+    border: 1px solid white !important;
+    border-radius: 50px !important;
     padding: 10px 20px;
+    margin-left: 20px;
   }
 }
 
-@media screen and (min-width: 925px) and (max-width: 1200px) {
 
-  .mission-top button {
-    padding: 0 15px;
-  }
-
-  .influence-statement-card,
-  .statement-verfied {
-    width: 30%;
-  }
-
-  .span-btn {
-    padding: 0.3re m 0.6rem;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 925px) {
-  .current-btn a,
-  .unactive-link,
-  .active-link {
-    font-size: 12px !important;
-  }
-
-  p {
-    font-size: 16px;
-  }
-
-  .main-btn-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-    justify-content: center;
-  }
-
-  .logo {
-    width: 14%;
-  }
-
-  .btn {
-    padding: 10px 13px;
-  }
-
- 
-}
-
-@media screen and (min-width: 600px) and (max-width: 768px) {
-
-  .current-btn a,
-  .unactive-link,
-  .active-link {
-    font-size: 12px !important;
+@media screen and (max-width: 660px) {
+  .will_be_hide_600px {
+    display: none;
   }
 
   .hide-me {
     display: block;
   }
 
-  .hide-me a {
-    color: #ffff;
+  .secondary_navbar_wrapper .will_be_show_600px {
+    display: inline-block;
+    margin-left: 20px !important;
   }
 
-  .btn {
-    padding: 8px 8px;
-    margin: 0 8px;
-    border-radius: 20px;
-    border: none;
-    font-weight: 700;
-  }
-
-  .main-btn-group {
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-    background-color: #020344;
-    position: relative;
-    top: -64px;
-    padding: 0.5rem;
-    border-radius: 0 0 10px 10px;
-  }
-
-  .active-btn a {
-    color: #fff;
-  }
-
-  .current-btn {
-    background-color: #fff;
-  }
-
-  .current-btn a {
-    color: #020344;
-  }
-
-  .leadership-main,
-  .majority-points,
-  .leadership-defined-flex {
-    justify-content: center;
-  }
-
-  .leadership-defined-top-p,
-  .leadership-defined h2,
-  .mojority-dis {
-    text-align: center;
-  }
-
-  .resp600center {
-    justify-content: center;
-  }
-
-  .leadership-verfied {
-    flex-basis: 52%;
-  }
-
-  .leadership-defined {
-    flex-basis: 70%;
-  }
-
-  .influence-statement-card {
-    width: 50%;
-    margin: 0 auto;
-  }
-
-  .statement-status {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .statement-verfied {
-    flex-basis: 60%;
-  }
-
-  .statment-work-graph {
-    flex-basis: 70%;
-  }
-}
-
-@media screen and (min-width: 330px) and (max-width: 600px) {
-  .current-btn a,
-  .unactive-link,
-  .active-link {
-    font-size: 12px !important;
-  }
-
-  .header {
-    flex-direction: column;
-  }
-
-  .hide-me {
-    display: block;
-  }
-
-  .btn {
-    padding: 8px 8px;
-    margin: 0 8px;
-    border-radius: 20px;
-    border: none;
-    font-weight: 700;
-  }
-
-  
-  .main-btn-group {
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-    background-color: #020344;
-    position: relative;
-    top: -64px;
-    padding: 0.5rem;
-    border-radius: 0 0 10px 10px;
-  }
-
-  .active-btn a {
-    color: #fff;
-  }
-
-  .current-btn {
-    background-color: #fff;
-  }
-
-  .current-btn a {
-    color: #020344;
-  }
-
-  .leadership-main,
-  .majority-points,
-  .leadership-defined-flex {
-    justify-content: center;
-  }
-
-  .leadership-defined-top-p,
-  .leadership-defined h2,
-  .mojority-dis {
-    text-align: center;
-  }
-
-  .resp600center {
-    justify-content: center;
-  }
 
 }
